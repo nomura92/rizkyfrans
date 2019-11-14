@@ -16,21 +16,25 @@
   </head>
   <body>
     
-    <header style="background-color:#333;color:#fff;">
+    <header class="border-bottom mb-3">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-3 d-none d-sm-block">
-            <h3>SISKOM</h3>
-            <h5>Kota Padang</h5>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <h4>SISTEM INFORMASI</h4>
-            <h5>AGENDA KEGIATAN</h5>
-            <h5>KEPALA DINAS KOMUNIKASI DAN INFORMATIKA</h5>
-            <h5>KOTA PADANG</h5>
-          </div>
-          <div class="col-sm-3 d-none d-sm-block">
-            <img src="./logo_padang.png">
+          <div class="col-12 text-center mt-3 pb-3">
+            <div class="clearfix" style="position: relative;">
+              <div class="d-none d-sm-block" style="position:absolute;top:0px;left:0px;">
+                <h3>SISKOM</h3>
+                <h5>Kota Padang</h5>
+              </div>
+              <div class="">
+                <h5>
+                  SISTEM INFORMASI<br>
+                  AGENDA KEGIATAN<br>
+                  KEPALA DINAS KOMUNIKASI DAN INFORMATIKA<br>
+                  KOTA PADANG
+                </h5>
+              </div>
+              <img class="d-none d-sm-block" src="./logo-padang.png" style="position:absolute;right:0px;top:0px;width:150px;">
+            </div>
           </div>
         </div>
       </div>
