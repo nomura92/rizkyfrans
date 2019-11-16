@@ -13,19 +13,48 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 
     <title>SISTEM INFORMASI</title>
+
+    <style type="text/css">
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      .logo{
+        position:absolute;right:0px;top:0px;width:150px;
+      }
+      @media screen and (max-width: 700px) {
+        .middle{
+          padding-right: 120px;
+        }
+        h5{
+          font-size: 16px;
+        }
+        .logo{
+          width: 80px;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .middle{
+          padding-right: 60px;
+        }
+        h5{
+          font-size: 12px;
+        }
+        .logo{
+          right: -15px;
+        }
+      }
+    </style>
   </head>
   <body>
     
-    <header class="border-bottom mb-3">
+    <header class="border-bottom mb-3 bg-primary text-white">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 text-center mt-3 pb-3">
             <div class="clearfix" style="position: relative;">
-              <div class="d-none d-sm-block" style="position:absolute;top:0px;left:0px;">
+              <div class="d-none d-md-block" style="position:absolute;top:0px;left:0px;">
                 <h3>SISKOM</h3>
                 <h5>Kota Padang</h5>
               </div>
-              <div class="">
+              <div class="middle">
                 <h5>
                   SISTEM INFORMASI<br>
                   AGENDA KEGIATAN<br>
@@ -33,7 +62,7 @@
                   KOTA PADANG
                 </h5>
               </div>
-              <img class="d-none d-sm-block" src="./logo-padang.png" style="position:absolute;right:0px;top:0px;width:150px;">
+              <img class="logo" src="./logo-padang.png">
             </div>
           </div>
         </div>
@@ -65,7 +94,7 @@
         </table>
       </div>
     </div>
-    <footer class="border-top">
+    <footer class="border-top bg-primary text-white">
       <div class="container-fluid p-3">
         <span>Copyright &copy; <?php echo date('Y'); ?> All right reserved.</span>
       </div>
